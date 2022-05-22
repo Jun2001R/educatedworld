@@ -1,0 +1,197 @@
+/* navbar */
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin : 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+#navbar
+{
+    
+    display: flex;
+    align-items: center;
+    background-color: black;
+    position: sticky;
+    width: 100%;
+
+}
+.logo img{
+    width: 69px;
+    height: auto;
+}
+.logo
+{
+    /* background-color: white; */
+    border-radius: 40px;
+    height: fit-content;
+}
+ul{
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    padding-inline-start: 0px;
+    list-style: none;
+}
+#navbar ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#navbar ul li a{
+    font-size: 20px;
+    width: fit-content;
+    padding: 0px 20px;
+color: white;
+text-decoration: none;
+}
+#navbar ul li a:hover{
+color: rgb(218, 218, 218);
+}
+#navbar::before{
+content:"";
+position: absolute;
+height: 643px;
+width:100%;
+background: url(/img/leone-venter-VieM9BdZKFo-unsplash.jpg);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+z-index: -1;
+opacity: 0.7;
+}
+/* header-primary */
+.header-primary{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #000000;
+  position: relative;
+    margin-bottom: 20px;
+    padding-top: 2px;
+}
+.header-primary h1{
+    font-size: 3rem;
+    margin-block-end: 0.23em;
+}
+.header-primary p{
+    font-size: 1.7rem;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+.btn
+{
+    width: 13%;
+    height: 50px;
+    font-size: 1.4em;
+    border-radius: 15px;
+    margin: 20px;
+    cursor: pointer;
+    color: green;
+    font-weight: bold;
+    background-color: #a5ffcb;
+    box-shadow: 3px 7px 11px -1px #b1aeae;
+    border-width: 0px;
+}
+.btn:hover
+{
+    background-color: #baecce;
+}
+/* section */
+.section
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.section>div{
+    width: 23%;
+    height: auto;
+    /* border: 1px solid black; */
+    text-align: center;
+    /* padding: 20px; */
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    box-shadow: 1px 2px 9px 3px #565454;
+    border-radius: 7px;
+    padding-bottom: 20px;
+}
+.section div:hover{
+    transform: scale(1.02);
+}
+.section-img{
+    display: block;
+ width: 100%;
+ height: 150px;
+ border-radius: 7px;
+    }
+    .section div a{
+       text-decoration: none;
+       color: #000000;
+    }
+    .section div a p{
+        margin-block-start: 0.5em;
+        margin-block-end: 0.5em;
+        font-size: 1em;
+    
+    }
+/* Achievements */
+#achievements{
+    display: flex;
+    justify-content: space-evenly;
+}
+.stories{
+    width:30%;
+    height: auto;
+    padding: 10px;
+   
+}
+.stories img{
+    height: 80px;
+    width: 80px;
+    border-radius: 50px;
+}
+.logo1 img{
+    width: 69px;
+    height: auto;
+}
+.logo1
+{
+    /* background-color: white; */
+    border-radius: 40px;
+    height: fit-content;
+}
+/* contact us */
+#contactus
+{
+    width: 100%;
+    background-color: #727070;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+flex-direction: column;
+}
+.contactinfo{
+    text-align: center;
+}
+.contactinfo p{
+    margin-block-start: 0.5em;margin-block-end: 0.5em;
+}
+.contactinfo p a{
+    text-decoration: none;
+    color: white;
+}
+.joinus{
+    width:50%;
+    margin: 3em;
+    margin-bottom: 00.5em;
+    display: flex;
+    justify-content: space-evenly;
+}
+.joinus img{
+    width: 60px;
+    height: auto;
+}
+
